@@ -1,0 +1,5 @@
+package com.currencyconversion.proxy;
+
+public interface CurrencyExchangeServiceProxy {
+
+}

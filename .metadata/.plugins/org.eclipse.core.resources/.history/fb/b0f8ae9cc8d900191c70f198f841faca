@@ -1,0 +1,5 @@
+package com.firstmicroservice.repository;
+
+public interface ExchangeValueRepository {
+
+}

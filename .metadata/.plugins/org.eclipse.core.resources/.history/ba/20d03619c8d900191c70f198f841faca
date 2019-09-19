@@ -1,0 +1,5 @@
+package com.firstmicroservice.entity;
+
+public class ExchangeValue {
+
+}

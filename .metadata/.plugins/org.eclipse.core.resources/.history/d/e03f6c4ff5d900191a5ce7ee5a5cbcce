@@ -1,0 +1,17 @@
+package com.firstmicroservice.firstmicroservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@EntityScan(basePackages = {"com.firstmicroservice.entity"})
+@ComponentScan("com.firstmicroservice.controller")
+public class FirstmicroserviceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FirstmicroserviceApplication.class, args);
+	}
+
+}
