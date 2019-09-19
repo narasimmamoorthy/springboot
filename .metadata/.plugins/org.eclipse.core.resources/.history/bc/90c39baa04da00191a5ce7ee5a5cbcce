@@ -1,9 +1,0 @@
-package com.currencyconversion.proxy;
-
-import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
-
-@FeignClient(name="forex-service" url="localhost:8000")
-public interface CurrencyExchangeServiceProxy {
-
-}

@@ -1,6 +1,0 @@
-#Server port
-server.port=8282
-
-
-#
-firstmicroservice.ribbon.listOfServers=localhost:8383,localhost:8181

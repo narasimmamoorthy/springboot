@@ -1,6 +1,0 @@
-package com.currencyconversion.proxy;
-
-@FeignClient
-public interface CurrencyExchangeServiceProxy {
-
-}

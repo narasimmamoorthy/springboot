@@ -1,7 +1,0 @@
-## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
-spring.datasource.url=jdbc:postgresql://10.24.142.56:5432/amhicare_dev_r3
-spring.datasource.username= postgres
-spring.datasource.password=pqsql123
-
-# The SQL dialect makes Hibernate generate better SQL for the chosen database
-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
